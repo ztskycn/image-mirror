@@ -3,6 +3,7 @@ name: image-mirror
 
 # 当新建 issues 时，触发
 on:
+  workflow_dispatch:
   issues:
     types:
       - opened
